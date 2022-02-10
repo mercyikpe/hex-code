@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff8dc;
+    font-family: 'Jost', sans-serif;
+}
+main {
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    /* Center vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-content {
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    animation: colorChange 5s infinite alternate;
+}
+p {
+    font-size: 2rem;
+    margin: 15% 0;
+}
+#click-button {
+    padding: 20px 16px;
+    background-color: #ffe4b5;
+    border: none;
+    border-radius: 10px;
+    font-size: 3rem;
+}
+#hexcode {
+    text-transform: uppercase;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #FEC196;
+    }
+    20% {
+        color: #FFA686;
+    }
+    40% {
+        color: #D6A184;
+    }
+    60% {
+        color: #AA767C;
+    }
+    80% {
+        color: #63474D;
+    }
+    100% {
+        color: #08090A;
+    }
+}
